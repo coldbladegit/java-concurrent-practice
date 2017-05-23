@@ -9,5 +9,7 @@ public class ExampleMain {
   public static void main(String[] argv) {
     /**test atomic object**/
     ExampleAtomicObject.test();
+    /**test CyclicBarrier**/
+    ExampleCyclicBarrier.test();
   }
 }
